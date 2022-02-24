@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{stmcurefman}
+{ST Microelectronics}.
+\newblock {\em {RM0090} Reference manual {STM32F405/415, STM32F407/417,
+  STM32F427/437 and STM32F429/439} advanced {ARM}-based 32-bit {MCU}s}.
+\newblock ST Microelectronics, 2020.
+
+\bibitem{stmmcudatasheet}
+{ST Microelectronics}.
+\newblock {\em {STM32F427xx STM32F429xx} {32b Arm Cortex-M4 MCU+FPU, 225DMIPS,}
+  up to {2MB Flash/256+4KB RAM, USB OTG HS/FS}, Ethernet, 17 {TIM}s, 3 {ADC}s,
+  20 com. interfaces, camera and {LCD-TFT}}.
+\newblock ST Microelectronics, 2021.
+
+\end{thebibliography}

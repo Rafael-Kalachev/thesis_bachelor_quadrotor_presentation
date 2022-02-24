@@ -1,0 +1,17 @@
+\selectlanguage *{bulgarian}
+\beamer@sectionintoc {1}{Структура}{2}{0}{1}
+\beamer@sectionintoc {2}{Увод}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Цели и задачи - Софтуер}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Цели и задачи - Хардуер}{7}{0}{2}
+\beamer@subsectionintoc {2}{3}{Цели и задачи - Идентификация,\\ моделиране, наблюдение и управление}{9}{0}{2}
+\beamer@sectionintoc {3}{Софтуерна част}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{Среда за разработка на софтуер с основа\\\textit {Make} под \textit {Linux}}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{Софтуерни модули за вътрешната и външна\\периферия}{17}{0}{3}
+\beamer@sectionintoc {4}{Хардуерна част}{24}{0}{4}
+\beamer@sectionintoc {5}{Моделиране и Идентификация}{25}{0}{5}
+\beamer@subsectionintoc {5}{1}{Ротор с витло}{26}{0}{5}
+\beamer@subsectionintoc {5}{2}{Платформа за управление на ъгъл на\\ завъртане}{29}{0}{5}
+\beamer@subsectionintoc {5}{3}{Платформа за безпилотен летателен апарат с четири ротора}{32}{0}{5}
+\beamer@sectionintoc {6}{Калибриране и компенсация}{34}{0}{6}
+\beamer@sectionintoc {7}{Синтез на наблюдател}{35}{0}{7}
+\beamer@sectionintoc {8}{Синтез на управление}{36}{0}{8}
