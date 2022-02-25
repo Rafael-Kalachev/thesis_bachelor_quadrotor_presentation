@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.18)  24 FEB 2022 22:41
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.18)  25 FEB 2022 10:02
  restricted system commands enabled.
  file:line:error style messages enabled.
 **presentation.tex
@@ -1038,11 +1038,11 @@ braces):
 >  {bulgarian/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {bulgarian/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for bulgarian
-(polyglossia)            patterns	hyph-bg.pat.txt
-(polyglossia)            lefthyphenmin	2
 (polyglossia)            hyphenation	
 (polyglossia)            loader	loadhyph-bg.tex
 (polyglossia)            synonyms	
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            patterns	hyph-bg.pat.txt
 (polyglossia)            righthyphenmin	2 on input line 12
 Module polyglossia Info: Language bulgarian was not yet loaded; created with id 
 2 on input line 12
@@ -1677,28 +1677,7 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 [2
 
-] (./presentation.toc
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr)
-Overfull \vbox (96.6843pt too high) detected at line 208
- []
-
+]
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -1717,6 +1696,18 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [3
 
 ]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -1803,7 +1794,71 @@ uage bgr [7
 ]
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+LaTeX Font Info:    Trying to load font information for U+msa on input line 289.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 289.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <10> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
+t line 289.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 289.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <7> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
+t line 289.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 289.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <5> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
+t line 289.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 5.0pt on input line 289.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10> not available
+
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
+ut line 289.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 289.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <7> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
+ut line 289.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 7.0pt on input line 289.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <5> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
+ut line 289.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 5.0pt on input line 289.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
+RS)
+)
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
@@ -1853,86 +1908,14 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [9
 
 ]
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 69 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 69 (nil) defines no feature for script latn with lang
-uage bgr
-LaTeX Font Info:    Trying to load font information for U+msa on input line 302.
+
+LaTeX Font Warning: Font shape `TU/Heuristica(1)/b/scit' undefined
+(Font)              using `TU/Heuristica(1)/b/it' instead on input line 296.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 302.
+LaTeX Font Warning: Font shape `TU/Heuristica(1)/b/scit' undefined
+(Font)              using `TU/Heuristica(1)/b/it' instead on input line 296.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
-t line 302.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 302.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <7> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
-t line 302.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 302.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <5> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
-t line 302.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 302.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10> not available
-
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
-ut line 302.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 302.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <7> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
-ut line 302.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 7.0pt on input line 302.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <5> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
-ut line 302.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 5.0pt on input line 302.
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
-RS)
-)
-luaotfload | aux : font no 69 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 69 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 69 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 69 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -1961,6 +1944,74 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <8> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
+t line 330.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 330.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <6> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
+t line 330.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line 330.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10.95> not availa
+ble
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
+ut line 330.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 10.95pt on input line 330.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <8> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
+ut line 330.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 8.0pt on input line 330.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <6> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
+ut line 330.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 6.0pt on input line 330.
+<Images/make.png, id=87, 257.46187pt x 275.52937pt>
+File: Images/make.png Graphic file (type png)
+<use Images/make.png>
+Package luatex.def Info: Images/make.png  used on input line 330.
+(luatex.def)             Requested size: 45.81404pt x 49.02557pt.
+<Images/gcc.png, id=88, 215.30438pt x 179.92218pt>
+File: Images/gcc.png Graphic file (type png)
+<use Images/gcc.png>
+Package luatex.def Info: Images/gcc.png  used on input line 330.
+(luatex.def)             Requested size: 45.81404pt x 38.28442pt.
+<Images/st-link.png, id=89, 539.01375pt x 224.33812pt>
+File: Images/st-link.png Graphic file (type png)
+<use Images/st-link.png>
+Package luatex.def Info: Images/st-link.png  used on input line 330.
+(luatex.def)             Requested size: 45.81404pt x 19.06677pt.
+<Images/vim.png, id=90, 140.77594pt x 137.7647pt>
+File: Images/vim.png Graphic file (type png)
+<use Images/vim.png>
+Package luatex.def Info: Images/vim.png  used on input line 330.
+(luatex.def)             Requested size: 45.81404pt x 44.83394pt.
+<Images/gdb.png, id=91, 217.5628pt x 124.96687pt>
+File: Images/gdb.png Graphic file (type png)
+<use Images/gdb.png>
+Package luatex.def Info: Images/gdb.png  used on input line 330.
+(luatex.def)             Requested size: 45.81404pt x 26.31436pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+Overfull \vbox (1.4959pt too high) detected at line 330
+ []
+
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -1968,15 +2019,30 @@ uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [11
 
-]
-
-LaTeX Font Warning: Font shape `TU/Heuristica(1)/b/scit' undefined
-(Font)              using `TU/Heuristica(1)/b/it' instead on input line 309.
-
-
-LaTeX Font Warning: Font shape `TU/Heuristica(1)/b/scit' undefined
-(Font)              using `TU/Heuristica(1)/b/it' instead on input line 309.
-
+<./Images/make.png><./Images/gcc.png><./Images/st-link.png><./Images/vim.png><./
+Images/gdb.png>]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 59 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 139 (nil) defines no feature for script latn with lan
+guage bgr
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <9> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
+t line 349.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 349.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <9> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
+ut line 349.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
+(Font)              scaled to size 9.0pt on input line 349.
+luaotfload | aux : font no 58 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -1997,72 +2063,14 @@ uage bgr [12
 ]
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 59 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 139 (nil) defines no feature for script latn with lan
+guage bgr
+luaotfload | aux : font no 58 (nil) defines no feature for script latn with lang
 uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
-t line 343.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 343.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <6> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
-t line 343.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 343.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10.95> not availa
-ble
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
-ut line 343.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 343.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
-ut line 343.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 8.0pt on input line 343.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <6> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
-ut line 343.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 6.0pt on input line 343.
-<Images/make.png, id=130, 257.46187pt x 275.52937pt>
-File: Images/make.png Graphic file (type png)
-<use Images/make.png>
-Package luatex.def Info: Images/make.png  used on input line 343.
-(luatex.def)             Requested size: 45.81404pt x 49.02557pt.
-<Images/gcc.png, id=131, 215.30438pt x 179.92218pt>
-File: Images/gcc.png Graphic file (type png)
-<use Images/gcc.png>
-Package luatex.def Info: Images/gcc.png  used on input line 343.
-(luatex.def)             Requested size: 45.81404pt x 38.28442pt.
-<Images/st-link.png, id=132, 539.01375pt x 224.33812pt>
-File: Images/st-link.png Graphic file (type png)
-<use Images/st-link.png>
-Package luatex.def Info: Images/st-link.png  used on input line 343.
-(luatex.def)             Requested size: 45.81404pt x 19.06677pt.
-<Images/vim.png, id=133, 140.77594pt x 137.7647pt>
-File: Images/vim.png Graphic file (type png)
-<use Images/vim.png>
-Package luatex.def Info: Images/vim.png  used on input line 343.
-(luatex.def)             Requested size: 45.81404pt x 44.83394pt.
-<Images/gdb.png, id=134, 217.5628pt x 124.96687pt>
-File: Images/gdb.png Graphic file (type png)
-<use Images/gdb.png>
-Package luatex.def Info: Images/gdb.png  used on input line 343.
-(luatex.def)             Requested size: 45.81404pt x 26.31436pt.
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-Overfull \vbox (1.4959pt too high) detected at line 343
- []
-
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2080,28 +2088,38 @@ uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [13
 
-<./Images/make.png><./Images/gcc.png><./Images/st-link.png><./Images/vim.png><./
-Images/gdb.png>]
+]
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 59 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
-luaotfload | aux : font no 139 (nil) defines no feature for script latn with lan
-guage bgr
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
-t line 362.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 362.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
-ut line 362.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 9.0pt on input line 362.
-luaotfload | aux : font no 58 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
 uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+<Images/SQ50-logic-analyzer.png, id=108, 642.4pt x 481.8pt>
+File: Images/SQ50-logic-analyzer.png Graphic file (type png)
+<use Images/SQ50-logic-analyzer.png>
+Package luatex.def Info: Images/SQ50-logic-analyzer.png  used on input line 392.
+
+(luatex.def)             Requested size: 77.16498pt x 57.87231pt.
+<Images/scana_studio_window.png, id=109, 1445.4pt x 765.6103pt>
+File: Images/scana_studio_window.png Graphic file (type png)
+<use Images/scana_studio_window.png>
+Package luatex.def Info: Images/scana_studio_window.png  used on input line 392.
+
+(luatex.def)             Requested size: 77.16498pt x 40.86453pt.
+<Images/uart_usb.png, id=110, 524.96124pt x 171.64125pt>
+File: Images/uart_usb.png Graphic file (type png)
+<use Images/uart_usb.png>
+Package luatex.def Info: Images/uart_usb.png  used on input line 392.
+(luatex.def)             Requested size: 86.80968pt x 28.38243pt.
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2121,16 +2139,17 @@ uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [14
 
-]
+<./Images/SQ50-logic-analyzer.png><./Images/scana_studio_window.png><./Images/ua
+rt_usb.png>]
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
-luaotfload | aux : font no 59 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
-luaotfload | aux : font no 139 (nil) defines no feature for script latn with lan
-guage bgr
-luaotfload | aux : font no 58 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
@@ -2154,33 +2173,16 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
-luaotfload | aux : font no 69 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 69 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 69 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 69 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
-<Images/SQ50-logic-analyzer.png, id=151, 642.4pt x 481.8pt>
-File: Images/SQ50-logic-analyzer.png Graphic file (type png)
-<use Images/SQ50-logic-analyzer.png>
-Package luatex.def Info: Images/SQ50-logic-analyzer.png  used on input line 405.
-
-(luatex.def)             Requested size: 77.16498pt x 57.87231pt.
-<Images/scana_studio_window.png, id=152, 1445.4pt x 765.6103pt>
-File: Images/scana_studio_window.png Graphic file (type png)
-<use Images/scana_studio_window.png>
-Package luatex.def Info: Images/scana_studio_window.png  used on input line 405.
-
-(luatex.def)             Requested size: 77.16498pt x 40.86453pt.
-<Images/uart_usb.png, id=153, 524.96124pt x 171.64125pt>
-File: Images/uart_usb.png Graphic file (type png)
-<use Images/uart_usb.png>
-Package luatex.def Info: Images/uart_usb.png  used on input line 405.
-(luatex.def)             Requested size: 86.80968pt x 28.38243pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2200,8 +2202,7 @@ uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [16
 
-<./Images/SQ50-logic-analyzer.png><./Images/scana_studio_window.png><./Images/ua
-rt_usb.png>]
+]
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2299,7 +2300,8 @@ uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr [20
+uage bgr
+[20
 
 ]
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2346,15 +2348,32 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-[22
+uage bgr [22
 
 ]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2385,6 +2404,14 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2393,11 +2420,6 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [24
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 490--490
-[]\TU/Heuristica(1)/b/sc/20.74 Мо-де-ли-ра-не и Иден-ти-фи-
-ка-
- []
-
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2416,11 +2438,8 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [25
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
-[]\TU/Heuristica(1)/b/sc/20.74 Мо-де-ли-ра-не и Иден-ти-фи-
-ка-
- []
-
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2439,12 +2458,13 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [26
 
 ]
-<Images/motor_model.png, id=221, 538.01pt x 75.28125pt>
-File: Images/motor_model.png Graphic file (type png)
-<use Images/motor_model.png>
-Package luatex.def Info: Images/motor_model.png  used on input line 508.
-(luatex.def)             Requested size: 225.06038pt x 31.49155pt.
-luaotfload | aux : font no 69 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
@@ -2465,12 +2485,15 @@ uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [27
 
-<./Images/motor_model.png>]
-<Images/control_force.png, id=232, 414.79968pt x 308.65312pt>
-File: Images/control_force.png Graphic file (type png)
-<use Images/control_force.png>
-Package luatex.def Info: Images/control_force.png  used on input line 522.
-(luatex.def)             Requested size: 192.91171pt x 143.54576pt.
+]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2490,12 +2513,17 @@ uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [28
 
-<./Images/control_force.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
-[]\TU/Heuristica(1)/b/sc/20.74 Мо-де-ли-ра-не и Иден-ти-фи-
-ка-
- []
-
+]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2514,12 +2542,14 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [29
 
 ]
-<Images/balance_force_diagram.png, id=247, 468.75125pt x 172.645pt>
-File: Images/balance_force_diagram.png Graphic file (type png)
-<use Images/balance_force_diagram.png>
-Package luatex.def Info: Images/balance_force_diagram.png  used on input line 55
-4.
-(luatex.def)             Requested size: 144.68132pt x 53.28493pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2539,14 +2569,7 @@ uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [30
 
-<./Images/balance_force_diagram.png>]
-<Images/bode_balance.png, id=254, 418.56375pt x 313.17pt>
-File: Images/bode_balance.png Graphic file (type png)
-<use Images/bode_balance.png>
-Package luatex.def Info: Images/bode_balance.png  used on input line 564.
-(luatex.def)             Requested size: 160.75812pt x 120.27693pt.
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
+]
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2564,12 +2587,21 @@ uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [31
 
-<./Images/bode_balance.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
-[]\TU/Heuristica(1)/b/sc/20.74 Мо-де-ли-ра-не и Иден-ти-фи-
-ка-
- []
-
+]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2588,11 +2620,14 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [32
 
 ]
-Overfull \hbox (134.3329pt too wide) in paragraph at lines 572--572
-[]\TU/Heuristica(1)/m/n/10.95 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAA  
- []
-
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2639,14 +2674,31 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr [35
+uage bgr
+[35
 
 ]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
@@ -2665,50 +2717,23 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [36
 
 ]
-
-LaTeX Font Warning: Font shape `TU/Heuristica(1)/m/scit' undefined
-(Font)              using `TU/Heuristica(1)/m/it' instead on input line 585.
-
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <20.74> not availab
-le
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
-t line 585.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 585.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <14.4> not availabl
-e
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
-t line 585.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 585.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <12> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inpu
-t line 585.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 585.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <20.74> not availa
-ble
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
-ut line 585.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 20.74pt on input line 585.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <14.4> not availab
-le
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
-ut line 585.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 14.4pt on input line 585.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <12> not available
-
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on inp
-ut line 585.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 585.
-
-LaTeX Font Warning: Font shape `TU/Heuristica(1)/m/scit' undefined
-(Font)              using `TU/Heuristica(1)/m/it' instead on input line 585.
-
-luaotfload | aux : font no 61 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
@@ -2726,11 +2751,7 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [37
 
 ]
-
-LaTeX Font Warning: Font shape `TU/Heuristica(1)/m/scit' undefined
-(Font)              using `TU/Heuristica(1)/m/it' instead on input line 589.
-
-luaotfload | aux : font no 61 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
@@ -2747,16 +2768,881 @@ uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr [38
 
-] (./presentation.bbl
+]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [39
 
-LaTeX Font Warning: Font shape `TU/Heuristica(1)/b/scit' undefined
-(Font)              using `TU/Heuristica(1)/b/it' instead on input line 5.
+]
+<Images/pcb2.png, id=272, 351.56343pt x 379.4175pt>
+File: Images/pcb2.png Graphic file (type png)
+<use Images/pcb2.png>
+Package luatex.def Info: Images/pcb2.png  used on input line 694.
+(luatex.def)             Requested size: 160.75812pt x 173.49207pt.
+<Images/pcb1.png, id=273, 327.47343pt x 353.82187pt>
+File: Images/pcb1.png Graphic file (type png)
+<use Images/pcb1.png>
+Package luatex.def Info: Images/pcb1.png  used on input line 694.
+(luatex.def)             Requested size: 160.75812pt x 173.69276pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [40
 
+<./Images/pcb2.png><./Images/pcb1.png>]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [41
+
+]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+[42
+
+]
+<Images/prop_on_balance.png, id=291, 275.52937pt x 489.32813pt>
+File: Images/prop_on_balance.png Graphic file (type png)
+<use Images/prop_on_balance.png>
+Package luatex.def Info: Images/prop_on_balance.png  used on input line 742.
+(luatex.def)             Requested size: 80.37906pt x 142.74524pt.
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+<Images/prop_balanced.png, id=292, 330.48468pt x 211.54031pt>
+File: Images/prop_balanced.png Graphic file (type png)
+<use Images/prop_balanced.png>
+Package luatex.def Info: Images/prop_balanced.png  used on input line 742.
+(luatex.def)             Requested size: 136.64537pt x 87.46802pt.
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [43
+
+<./Images/prop_on_balance.png><./Images/prop_balanced.png>]
+<Images/ultimaker_cura_window.png, id=298, 1445.4pt x 764.10469pt>
+File: Images/ultimaker_cura_window.png Graphic file (type png)
+<use Images/ultimaker_cura_window.png>
+Package luatex.def Info: Images/ultimaker_cura_window.png  used on input line 76
+2.
+(luatex.def)             Requested size: 160.75812pt x 84.97285pt.
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+<Images/freecad_window.png, id=299, 1445.4pt x 767.86874pt>
+File: Images/freecad_window.png Graphic file (type png)
+<use Images/freecad_window.png>
+Package luatex.def Info: Images/freecad_window.png  used on input line 762.
+(luatex.def)             Requested size: 160.75812pt x 85.39143pt.
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [44
+
+<./Images/ultimaker_cura_window.png><./Images/freecad_window.png>]
+<Images/balance_construction.png, id=305, 367.3725pt x 303.38344pt>
+File: Images/balance_construction.png Graphic file (type png)
+<use Images/balance_construction.png>
+Package luatex.def Info: Images/balance_construction.png  used on input line 770
+.
+(luatex.def)             Requested size: 192.91171pt x 159.31108pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [45
+
+<./Images/balance_construction.png>]
+<Images/drone_construction.png, id=311, 118.5228pt x 110.0913pt>
+File: Images/drone_construction.png Graphic file (type png)
+<use Images/drone_construction.png>
+Package luatex.def Info: Images/drone_construction.png  used on input line 777.
+(luatex.def)             Requested size: 192.91171pt x 179.19856pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [46
+
+<./Images/drone_construction.png>]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [47
+
+]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [48
+
+]
+<Images/motor_model.png, id=332, 538.01pt x 75.28125pt>
+File: Images/motor_model.png Graphic file (type png)
+<use Images/motor_model.png>
+Package luatex.def Info: Images/motor_model.png  used on input line 800.
+(luatex.def)             Requested size: 225.06038pt x 31.49155pt.
+luaotfload | aux : font no 70 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [49
+
+<./Images/motor_model.png>]
+<Images/control_force.png, id=340, 414.79968pt x 308.65312pt>
+File: Images/control_force.png Graphic file (type png)
+<use Images/control_force.png>
+Package luatex.def Info: Images/control_force.png  used on input line 814.
+(luatex.def)             Requested size: 192.91171pt x 143.54576pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [50
+
+<./Images/control_force.png>]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [51
+
+]
+<Images/balance_force_diagram.png, id=356, 468.75125pt x 172.645pt>
+File: Images/balance_force_diagram.png Graphic file (type png)
+<use Images/balance_force_diagram.png>
+Package luatex.def Info: Images/balance_force_diagram.png  used on input line 84
+7.
+(luatex.def)             Requested size: 144.68132pt x 53.28493pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [52
+
+<./Images/balance_force_diagram.png>]
+<Images/bode_balance.png, id=363, 418.56375pt x 313.17pt>
+File: Images/bode_balance.png Graphic file (type png)
+<use Images/bode_balance.png>
+Package luatex.def Info: Images/bode_balance.png  used on input line 857.
+(luatex.def)             Requested size: 160.75812pt x 120.27693pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [53
+
+<./Images/bode_balance.png>]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [54
+
+]
+<Images/rotors.png, id=378, 350.05782pt x 186.6975pt>
+File: Images/rotors.png Graphic file (type png)
+<use Images/rotors.png>
+Package luatex.def Info: Images/rotors.png  used on input line 868.
+(luatex.def)             Requested size: 289.36266pt x 154.33784pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [55
+
+<./Images/rotors.png>]
+<Images/kinematika.png, id=384, 228.10219pt x 208.52907pt>
+File: Images/kinematika.png Graphic file (type png)
+<use Images/kinematika.png>
+Package luatex.def Info: Images/kinematika.png  used on input line 876.
+(luatex.def)             Requested size: 192.91171pt x 176.36278pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+Underfull \hbox (badness 2951) in paragraph at lines 876--876
+ []|\TU/Heuristica(1)/m/sc/14.4 С-, --  
+-- ---- 
+ []
+
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [56
+
+<./Images/kinematika.png>]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [57
+
+]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [58
+
+]
+<Images/quadrotor_simulink.png, id=402, 647.41875pt x 506.6428pt>
+File: Images/quadrotor_simulink.png Graphic file (type png)
+<use Images/quadrotor_simulink.png>
+Package luatex.def Info: Images/quadrotor_simulink.png  used on input line 905.
+(luatex.def)             Requested size: 225.06038pt x 176.12164pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [59
+
+<./Images/quadrotor_simulink.png>]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+[60
+
+]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [61
+
+]
+<Images/gyro_drift_calibrate.png, id=424, 420.06938pt x 316.18124pt>
+File: Images/gyro_drift_calibrate.png Graphic file (type png)
+<use Images/gyro_drift_calibrate.png>
+Package luatex.def Info: Images/gyro_drift_calibrate.png  used on input line 916
+.
+(luatex.def)             Requested size: 257.21397pt x 193.60359pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [62
+
+<./Images/gyro_drift_calibrate.png>]
+\openout4 = presentation.vrb
+ (./presentation.vrb
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr)
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [63
+
+]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+[64
+
+]
+<Images/mag_calibration.png, id=443, 409.53pt x 301.125pt>
+File: Images/mag_calibration.png Graphic file (type png)
+<use Images/mag_calibration.png>
+Package luatex.def Info: Images/mag_calibration.png  used on input line 941.
+(luatex.def)             Requested size: 192.91171pt x 141.85039pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [65
+
+<./Images/mag_calibration.png>]
+\openout4 = presentation.vrb
+ (./presentation.vrb
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr)
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [66
+
+]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [67
+
+]
+<Images/kf.png, id=463, 420.82219pt x 184.43906pt>
+File: Images/kf.png Graphic file (type png)
+<use Images/kf.png>
+Package luatex.def Info: Images/kf.png  used on input line 968.
+(luatex.def)             Requested size: 321.51625pt x 140.9153pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [68
+
+<./Images/kf.png>]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [69
+
+]
+<Images/kalman_filter_time_vs_raw.png, id=474, 414.04688pt x 313.17pt>
+File: Images/kalman_filter_time_vs_raw.png Graphic file (type png)
+<use Images/kalman_filter_time_vs_raw.png>
+Package luatex.def Info: Images/kalman_filter_time_vs_raw.png  used on input lin
+e 1005.
+(luatex.def)             Requested size: 160.75812pt x 121.59581pt.
+<Images/kalman_filter_time_vs_raw_2.png, id=475, 478.78876pt x 368.87813pt>
+File: Images/kalman_filter_time_vs_raw_2.png Graphic file (type png)
+<use Images/kalman_filter_time_vs_raw_2.png>
+Package luatex.def Info: Images/kalman_filter_time_vs_raw_2.png  used on input l
+ine 1005.
+(luatex.def)             Requested size: 160.75812pt x 123.85214pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [70
+
+<./Images/kalman_filter_time_vs_raw.png><./Images/kalman_filter_time_vs_raw_2.pn
+g>]
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [71
+
+]
+<Images/control_diagram_simple.png, id=488, 779.91376pt x 328.22626pt>
+File: Images/control_diagram_simple.png Graphic file (type png)
+<use Images/control_diagram_simple.png>
+Package luatex.def Info: Images/control_diagram_simple.png  used on input line 1
+015.
+(luatex.def)             Requested size: 321.51625pt x 135.30984pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [72
+
+<./Images/control_diagram_simple.png>]
+<Images/universal_pid.png, id=494, 599.99156pt x 252.19218pt>
+File: Images/universal_pid.png Graphic file (type png)
+<use Images/universal_pid.png>
+Package luatex.def Info: Images/universal_pid.png  used on input line 1024.
+(luatex.def)             Requested size: 321.51625pt x 135.14275pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+Underfull \hbox (badness 1838) in paragraph at lines 1024--1024
+ []|\TU/Heuristica(1)/m/sc/14.4 С-  ---
+--- --- 
+ []
+
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [73
+
+<./Images/universal_pid.png>]
+<Images/controlled_system.png, id=500, 424.58624pt x 318.43968pt>
+File: Images/controlled_system.png Graphic file (type png)
+<use Images/controlled_system.png>
+Package luatex.def Info: Images/controlled_system.png  used on input line 1034.
+(luatex.def)             Requested size: 225.06038pt x 168.79652pt.
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 67 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr
+luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+uage bgr [74
+
+<./Images/controlled_system.png>]
+(./presentation.bbl
 luaotfload | aux : font no 151 (nil) defines no feature for script latn with lan
 guage bgr
 
 LaTeX Font Warning: Font shape `TU/Heuristica(1)/b/scit' undefined
 (Font)              using `TU/Heuristica(1)/b/it' instead on input line 11.
+
+luaotfload | aux : font no 151 (nil) defines no feature for script latn with lan
+guage bgr
+
+LaTeX Font Warning: Font shape `TU/Heuristica(1)/b/scit' undefined
+(Font)              using `TU/Heuristica(1)/b/it' instead on input line 17.
 
 luaotfload | aux : font no 151 (nil) defines no feature for script latn with lan
 guage bgr)
@@ -2777,14 +3663,10 @@ uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr [39
+uage bgr [75
 
 </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
-uage bgr
-luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 61 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
@@ -2800,7 +3682,7 @@ luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr
-[40
+[76
 
 ]
 \tf@nav=\write5
@@ -2862,13 +3744,13 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 614.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 614.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1067.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1067.
  (./presentation.aux
 luaotfload | aux : font no 57 (nil) defines no feature for script latn with lang
 uage bgr)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 614.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 614.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1067.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1067.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2876,30 +3758,31 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 32667 strings out of 481365
- 125171,1144653 words of node,token memory allocated
- 2928 words of node memory still in use:
-   25 hlist, 8 vlist, 5 rule, 3 local_par, 63 glue, 19 kern, 12 penalty, 4 margi
-n_kern, 175 glyph, 57 attribute, 65 glue_spec, 57 attribute_list, 4 write, 10 pd
-f_action, 16 pdf_colorstack nodes
-   avail lists: 1:1,2:844,3:368,4:261,5:209,6:47,7:1357,8:55,9:292,10:46,11:336
- 47903 multiletter control sequences out of 65536+600000
- 187 fonts using 23020411 bytes
- 76i,16n,96p,1249b,1068s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 32962 strings out of 481365
+ 125171,1373583 words of node,token memory allocated
+ 1265 words of node memory still in use:
+   14 hlist, 6 vlist, 2 rule, 7 disc, 1 local_par, 16 glue, 5 kern, 8 penalty, 1
+ margin_kern, 32 glyph, 34 attribute, 65 glue_spec, 34 attribute_list, 4 write, 
+6 pdf_action, 5 pdf_colorstack nodes
+   avail lists: 1:1,2:880,3:372,4:180,5:187,6:36,7:1466,8:55,9:315,10:11,11:218
+ 48034 multiletter control sequences out of 65536+600000
+ 154 fonts using 20226099 bytes
+ 76i,16n,96p,1249b,1067s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}</home/rafael
 /.local/share/fonts/Heuristica-BoldItalic.otf></home/rafael/.local/share/fonts/H
 euristica-Italic.otf></home/rafael/.local/share/fonts/Heuristica-Regular.otf></h
 ome/rafael/.local/share/fonts/Heuristica-Bold.otf></usr/share/texlive/texmf-dist
 /fonts/type1/public/fira/FiraSans-Italic.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msam10.pfb>
-Output written on presentation.pdf (40 pages, 781477 bytes).
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on presentation.pdf (76 pages, 3451428 bytes).
 
-PDF statistics: 422 PDF objects out of 1000 (max. 8388607)
- 334 compressed objects within 4 object streams
- 102 named destinations out of 1000 (max. 131072)
- 152 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 652 PDF objects out of 1000 (max. 8388607)
+ 504 compressed objects within 6 object streams
+ 180 named destinations out of 1000 (max. 131072)
+ 192 words of extra memory for PDF output out of 10000 (max. 100000000)
 

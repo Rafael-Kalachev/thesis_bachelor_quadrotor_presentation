@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{merayo2000scalar}
+Jos{\'e}~MG Merayo, Peter Brauer, Fritz Primdahl, Jan~Raagaard Petersen, and
+  Otto~V Nielsen.
+\newblock Scalar calibration of vector magnetometers.
+\newblock {\em Measurement science and technology}, 11(2):120, 2000.
+
 \bibitem{stmcurefman}
 {ST Microelectronics}.
 \newblock {\em {RM0090} Reference manual {STM32F405/415, STM32F407/417,

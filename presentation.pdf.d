@@ -25,15 +25,12 @@ presentation.pdf :\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm\
-    /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm\
-    /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm\
-    /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr5.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm\
@@ -49,7 +46,9 @@ presentation.pdf :\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1--base.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1.tfm\
+    /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb\
+    /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb\
@@ -277,17 +276,36 @@ presentation.pdf :\
     /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map\
     /var/lib/texmf/web2c/luatex/lualatex.fmt\
     Images/SQ50-logic-analyzer.png\
+    Images/balance_construction.png\
     Images/balance_force_diagram.png\
     Images/bode_balance.png\
+    Images/control_diagram_simple.png\
     Images/control_force.png\
+    Images/controlled_system.png\
+    Images/drone_construction.png\
+    Images/freecad_window.png\
     Images/gcc.png\
     Images/gdb.png\
+    Images/gyro_drift_calibrate.png\
+    Images/kalman_filter_time_vs_raw.png\
+    Images/kalman_filter_time_vs_raw_2.png\
+    Images/kf.png\
+    Images/kinematika.png\
     Images/logo.png\
+    Images/mag_calibration.png\
     Images/make.png\
     Images/motor_model.png\
+    Images/pcb1.png\
+    Images/pcb2.png\
+    Images/prop_balanced.png\
+    Images/prop_on_balance.png\
+    Images/quadrotor_simulink.png\
+    Images/rotors.png\
     Images/scana_studio_window.png\
     Images/st-link.png\
     Images/uart_usb.png\
+    Images/ultimaker_cura_window.png\
+    Images/universal_pid.png\
     Images/vim.png\
     beamercolorthemefocus.sty\
     beamerfontthemefocus.sty\

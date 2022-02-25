@@ -200,13 +200,6 @@
 	\end{nohyphens}
 \end{frame}
 
-\section{Структура}
-    
-	
-\begin{frame}
-	\tableofcontents
-\end{frame}
-
 %----------------------------------------------------------------------------------------
 %	 SECTION 1
 %----------------------------------------------------------------------------------------
@@ -241,12 +234,6 @@
 
 \begin{frame}{Цели и задачи - Хардуер}
 	\begin{itemize}
-		\pause 
-		\item Оглед на съществуващия хардуер и подбор на компоненти за преизползване.
-
-		\pause 
-		\item Подбор нов на хардуер
-
 		\pause 
 		\item Разположение на хардуера и избор на конфигурация за системата 
 
@@ -354,7 +341,7 @@
 
 		\pause
 		\item[make flash] Запис на изградения
-		\footnote{В случай, че софтуерyt има нужда от (пре)изграждане, системата автоматично го (пре)изгражда.}
+		\footnote{В случай, че софтуерът има нужда от (пре)изграждане, системата автоматично го (пре)изгражда.}
 		софтуер в паметта на микроконтролера.
 
 	\end{description}
@@ -379,13 +366,13 @@
 \end{frame}
 
 
-\begin{frame}{Подбрани хардуерни и софтуерни решения}
+\begin{frame}{Подбрани хардуерни и софтуерни решения за анализ}
 	\begin{columns}
 		\column{0.7\textwidth}
 		\begin{block}{ }
 			\begin{itemize}
 				\pause
-				\item Логически анализатор и генератор на 
+				\item Логически анализатор и генератор на логически сигнали
 					\begin{itemize}
 						\pause
 						\item SQ50 - logic analyzer (IKALOGIC S.A.S)
@@ -404,15 +391,58 @@
 	\end{columns}
 \end{frame}
 
-\subsection{Софтуерни модули за вътрешната и външна\\периферия}
+
+\begin{frame}{Решени задачи по отнощение на средата}
+
+		\begin{block}{Конфигурация на компилатор}
+			\begin{itemize}
+				\pause
+				\item Използване на хардуерния модул за числа с плаваща запетая
+				\pause
+				\item Изключване на оптимизациите
+				\pause
+				\item Генериране на символи за дебъг
+			\end{itemize}
+		\end{block}
+\end{frame}
+
+\begin{frame}[t]
+		\begin{block}{Линкерен скрипт}
+			\begin{itemize}
+				\pause
+				\item Очертаване на разположението на отделните секции в паметта
+				\pause
+				\item Генериране на символи, използвани от буутлоудъра.
+				\pause
+				\item Правилно подравняване на отделните секции.
+				\pause
+				\item Остранване на символи от стнадартните библиотеки.
+			\end{itemize}
+		\end{block}
+
+		\pause
+
+	\begin{block}{Конфигурация на дебъгер}
+		\begin{itemize}
+			\pause
+			\item Автоматично отваряне на сесия и подвързване към дебъгерният порт.
+			\pause
+			\item Предварително зареждане на дебъг символите от последния обектен файл.
+		\end{itemize}
+	\end{block}
+
+\end{frame}
+
+
+\subsection{Софтуерни модули за вътрешна и външна\\периферия}
 
 \begin{frame}{Описание на модулите за вътрешна\\периферия}
 	\pause
-	Софтуерните модули са изградени на база описанието на регистирте за вътрешната периферия посочени в 
-	Документът за Техническа справка на микроконтролери от семейство \textit{STM32F4xxx} \cite{stmcurefman}.\\[1.5em]
+	Софтуерните модули са изградени на база описанието на регистирте за вътрешната периферия, посочени в 
+	документа за техническа справка на микроконтролери от семейство \textit{STM32F4xxx} \cite{stmcurefman}.\\[1.5em]
 
 	\pause
-	А основите за регистърните блокове на периферията в паметта е както е описано в дкоумента за съответният
+	Основите за регистърните блокове на периферията в паметта са описани в дкоумента за съответния
 	модел микроконтролер \cite{stmmcudatasheet}.
 
 \end{frame}
@@ -421,17 +451,17 @@
 	\begin{block}{RCC (Reset and Clock Control)}
 		Модул за управление на:
 		\begin{itemize}
-			\item Времеви баси (clock source: HSE, HSI, LSE)
+			\item Времеви бази (clock source: HSE, HSI, LSE)
 			\item PLL честотен множител
 			\item Делители на честота
-			\item Часовниците на периферните шини
-			\item Часовниците на периферията
+			\item Часовници на периферните шини
+			\item Часовници на периферията
 		\end{itemize}
 	\end{block}
 
 \end{frame}
 
-\begin{frame}
+\begin{frame}[t]
 
 	\begin{block}{NVIC (Nested Vectored Interrupt Controller)}
 		Модул за управление на:
@@ -440,13 +470,13 @@
 			\item Разрешаване и забрана на отделни прекъсвания.
 			\item Маскиране на прекъсвания.
 			\item Приоритет на прекъсванията
-			\item Локацията на таблицата на прекъсванията.
+			\item Локация на таблицата на прекъсванията.
 		\end{itemize}
 	\end{block}
 
 \end{frame}
 
-\begin{frame}
+\begin{frame}[t]
 
 	\begin{block}{GPIO (General Purpose Input/Output)}
 		Модул за управление на:
@@ -455,19 +485,24 @@
 			 \item Посока (изход/вход) за отделни пинове.
 			 \item Pежим на работа на отделните пинове (Open-drain, Push-Pull, Analog, AF).
 			 \item Вътрешни (Pull-up/Pull-down/Floating) конфигурации.
-			 \item Източник за управление на състоянието на отделни пинове (Регистър / Алтернативна функция)
+			 \item Източник за управление на състоянието на отделни пинове (Регистър/Алтернативна функция)
 			 \item Работна честота на модула.
 	 	\end{itemize}
 	\end{block}
 
 \end{frame}
 
-\begin{frame}
+\begin{frame}[t]
 
 	\begin{block}{TIM (Timers)}
-		Модул за управление на прости таймери, таймери с общо предназначение и Специализирани таймери.
-		Модула предоставя следните възможности:
-		ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
+		Модул за управление на прости таймери, таймери с общо предназначение и специализирани таймери:
+		\begin{itemize}
+			\item Управление на честотните делители.
+			\item Настройка на период на таймера (ARR).
+			\item Настройка на режим на броене.
+			\item Настroйка на флагове, стартиращи прекъсвания.
+			\item Настройка на режимите на използване на CCR регистрите.
+		\end{itemize}
 	\end{block}
 
 \end{frame}
@@ -475,23 +510,280 @@
 \begin{frame}[t]
 
 	\begin{block}{I2C (Inter Integrated Circuit)}
-		Модул за управление на конфигурацията на отделните I2C периферни модули.
-		Предоставя ниво на абстракция позволяващa лесно четене и писане по регистрите на външни устройства, 
-		като цялото управление на потока на комуникация е част от имплементираното прекъсване.
+		Модулът предоставя:
+		\begin{itemize}
+			\item Конфигуриране на отделните I2C периферни модули.
+			\item Прости команди за отделни операции във връзка с I2C комуникацията.
+			\item Абстрактни команди за управление на комуникацията изцяло през прекъсването.
+			\item Динамична поправка на проблеми с комуникацията (при възможност).
+		\end{itemize} 
 	\end{block}
-
-
 
 \end{frame}
 
+\begin{frame}[t]
+
+	\begin{block}{USART}
+		Модулът предоставя:
+		\begin{itemize}
+			\item Опростен интерфейс за работа с USART периферията.
+			\item Настройка на честота на предаване/приемане
+			\item Настройка на отделни параметри на комуникацията.
+		\end{itemize} 
+	\end{block}
+
+\end{frame}
+
+\subsection{Описание на модулите за външна\\периферия}
+
+\begin{frame}{Описание на модулите за външна\\периферия}
+	\pause
+	Софтуерните модули за външната периферия са изградени на база описанието и комуникационните интерфейси на отделното използвано устройство.
+	
+	
+	Строго проекто специфични, като се възползват от знанията за целите на проекта и са оптимизирани само и единствено за него.
+
+\end{frame}
+
+\begin{frame}{Изградени модули за външна периферия}
+	\begin{block}{6-канален RC приемник}
+		Модул за четене и обновяване на данните, постъпващи от 6-канален RC приемник.
+		\begin{itemize}
+			\item Сигнал тип PPM 50Hz. (\(1000\to2000\mu s\))
+			\item Използват се TIM3 и TIM5 (резолюция \(0.2\mu s\)), режим Input-Capture.
+			\item Сигналите се подновяват в струкрурата на суровите входове в момента на засичнае
+		\end{itemize}
+	\end{block}
+
+\end{frame}
+
+
+\begin{frame}[t]
+	\begin{block}{BLDC 4 канала}
+		Модул за управление на заданията на четирите ESC за BLDC.
+		\begin{itemize}
+			\item Сигнал тип PPM 50Hz. (\(1000\to2000\mu s\))
+			\item Използва се TIM2 (резолюция \(1\mu s\)), режим Output-Compare.
+			\item Сигналите се подновяват след рестартиране на брояча чрез писане върху CCR регистрите.
+			\item Режим на изходните пинове Open-Drain No-Internal-Pull.
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+
+\begin{frame}[t]
+	\begin{block}{Жироскоп и акселерометър}
+		Модул за конфигурация и четене на данните от жироскопа и акселерометъра:
+		\begin{itemize}
+			\item Сигнал тип I2C.
+			\item Използва се I2C3, режим Master.
+			\item Хадуерът е конфигуриран на 52Hz честота на дискретизация.
+			\item Обхват: акселерометър: 8g, жироскоп: 1000DPS.
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}[t]
+	\begin{block}{Магнитометър}
+		Модул за конфигурация и четене на данните от магнитометъра:
+		\begin{itemize}
+			\item Сигнал тип  I2C.
+			\item Използва се I2C3, режим Master.
+			\item Хадуерът е конфигуриран на 52Hz честота на дискретизация.
+			\item Обхват: 8gaus.
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\subsection{Допълнителни библиотеки}
+
+\begin{frame}{Допълнителни библотеки}
+
+	\begin{block}{Библиотека за работа с матрици (стандарт за именоване CMSIS)}
+		\begin{itemize}
+			\pause
+			\item Събиране и изваждане
+			\pause
+			\item Умножение
+			\pause
+			\item Транспониране
+			\pause
+			\item Инверсия (Гаус-Жордан)
+			\pause
+			\item  Псевдоинверсия (Пенроз-Мур) (WIP)
+		\end{itemize}
+	\end{block}
+
+\end{frame}
+
+\begin{frame}[t]
+	\begin{block}{Библиотека за управление}
+		\begin{itemize}
+			\pause
+			\item Универсален ПИД регулатор
+			\pause
+			\item Релеен регулатор
+			\pause
+			\item Ограничители max-min
+		\end{itemize}
+	\end{block}
+
+\end{frame}
+
+\subsection{Инициализация на микроконтролера}
+
+\begin{frame}{Инициализация на микроконтролера}
+
+	\begin{block}{Стартиране}
+		Започва от ResetHandler, където е  имплементиран примитивен буутлоудър
+	\end{block}
+
+\end{frame}
+
+\begin{frame}[t]
+
+	\begin{block}{Примитивен буутлоудър (ARM assembly)}
+		\begin{itemize}
+			\item Инициализира стековия указател (SP) и програмния брояч (PC)
+			\item Зарежда статичните променливи в паметта
+			\item Инициализира .bss секцията с 0.
+			\item Извиква системната инициализация и отдава управлението към main()
+			\item Дефинира символите от таблицата на прекъсванията като .weak към DefaultHandler 
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}[t]
+	\begin{block}{Системна инициализация}
+		\begin{itemize}
+			\item Конфигураця на системния часовник (168MHz)
+			\begin{itemize}
+				\item Използване на HSE за времева основа
+				\item Конфигурация на PLL (PLL\_M=8, PLL\_N=336, PLL\_P=2, PLL\_Q=7)
+			\end{itemize}
+			\item Конфигурация на AHB и APB*  (AHB\_Prescaler=1, APB1\_Prescaler=4, APB2\_Prescaler=2).
+			\item Разрешаване на хадруерното устройство за числа с плаваща запетая.
+		\end{itemize}
+	\end{block}
+
+\end{frame}
+
+
 \section{Хардуерна част}
 
+\subsection{Свързване на системата}
 
-\section{Моделиране и Идентификация}
+\begin{frame}{Свързваща платка}
+		\begin{columns}
+			\column{0.5\textwidth}
+		\begin{figure}[htpb!]
+			\centering
+			\includegraphics[width=1\textwidth]{Images/pcb2.png}
+		\end{figure}
+
+		Предна страна 
+		\column{0.5\textwidth}
+		\begin{figure}[htpb!]
+			\centering
+			\includegraphics[width=1\textwidth]{Images/pcb1.png}
+		\end{figure}
+
+		Задна страна
+	\end{columns}
+
+\end{frame}
+
+
+\begin{frame}{Подбрани портове, пинове и периферия}
+
+		\begin{block}{I2C}
+			PA8 (I2C3 SCL) и PA9 (I2C3 SDA). Цялата периферия по шината оперира на 3.3V.
+		\end{block}
+
+		\begin{block}{USART}
+			PB6(USART1 TX) и PB7 (USART1 RX). Цялата периферия по шината оперира на 3.3V.
+		\end{block}
+
+		\begin{block}{Управляващи сигнали ESC}
+			PD12 - PD15. Конфигурация Open-drain, външни Pull-up резистори \(10M\Omega\).
+			Нужно е да се генерира 5V PPM сигнал.
+		\end{block}
+
+\end{frame}
+
+
+\begin{frame}[t]
+
+		\begin{block}{Входове PPM (приемник, сензор за разстояние)}
+			PA0(TIM5 канал 1), PA3(TIM5 канал 4), PB0(TIM3 канал 3),
+			PB1(TIM3 канал 4), PB4(TIM3 канал 2), PB5(TIM3 канал 1).
+			Периферията генерира 5V сигнали на входа. Входовете са 5V толерантни.
+		\end{block}
+
+\end{frame}
+
+\begin{frame}{Балансиране на витла}
+	\begin{columns}
+		\column{0.5\textwidth}
+	\begin{figure}[htpb!]
+		\centering
+		\includegraphics[width=0.5\textwidth]{Images/prop_on_balance.png}
+		\caption{Небалансирано витло}
+	\end{figure}
+
+
+	\column{0.5\textwidth}
+	\begin{figure}[htpb!]
+		\centering
+		\includegraphics[width=0.85\textwidth]{Images/prop_balanced.png}
+		\caption{Балансирано витло}
+	\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Основа за монтиране на контролер и външна периферия}
+	\begin{columns}
+		\column{0.5\textwidth}
+	\begin{figure}[htpb!]
+		\centering
+		\includegraphics[width=1\textwidth]{Images/ultimaker_cura_window.png}
+		\caption{Основа за монтиране, Ultimaker Cura}
+	\end{figure}
+
+
+	\column{0.5\textwidth}
+	\begin{figure}[htpb!]
+		\centering
+		\includegraphics[width=1\textwidth]{Images/freecad_window.png}
+		\caption{Основа за монтиране FreeCad}
+	\end{figure}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{Платформа за управление на \\ъгъл на завъртане}
+	\begin{figure}[htpb!]
+		\centering
+		\includegraphics[width=0.6\textwidth]{Images/balance_construction.png}
+	\end{figure}
+
+\end{frame}
+
+\begin{frame}{Платформа за безпилотен летателен апарат \\с четири ротора }
+	\begin{figure}[htpb!]
+		\centering
+		\includegraphics[width=0.6\textwidth]{Images/drone_construction.png}
+	\end{figure}
+\end{frame}
+
+
+
+
+\section{Моделиране и \\идентификация}
 
 \subsection{Ротор с витло}
 
-\begin{frame}{Моделиране на Ротор с витло}
+\begin{frame}{Моделиране на ротор с витло}
 	Опростен апроксимиран модел - нискочестотен филтър и коефициент на пропорционалност.
 	\begin{figure}[htpb!]
 		\centering
@@ -507,7 +799,7 @@
 
 \end{frame}
 
-\begin{frame}{Снемане на характеристики на Ротор с витло}
+\begin{frame}{Снемане на характеристики на \\ротор с витло}
 
 \begin{figure}[htpb!]
     \centering
@@ -534,7 +826,9 @@
 		И апроксимираме:
 		\begin{align*}
 			I &= \frac{l^2}{12}(M + 6m)
-		\end{align*}\\[1em]
+		\end{align*}
+
+		Получаваме:\\[1em]
 
 		\column{0.5\textwidth}
 		
@@ -545,7 +839,6 @@
 
 	\end{columns}
 
-	Получаваме:
 	\begin{equation*}
 	G_{sys} = G_{motor}(s)G_{platform}(s) = 
 	\frac{k_{motor} l}{s( s I + C)(s \tau_{motor} + 1)} 
@@ -567,26 +860,187 @@
 \subsection{Платформа за безпилотен летателен апарат с четири ротора}
 
 
-\begin{frame}{}
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+\begin{frame}{Конфигурация}
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.9\columnwidth]{Images/rotors.png}
+	\end{figure}
 \end{frame}
+
+\begin{frame}{Сили, моменти и отправни координaтни системи}
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{Images/kinematika.png}
+
+\end{figure}
+\end{frame}
+
+\begin{frame}{Моделиране}
+	За да се носи платформата във въздуха, е нужно:
+
+\begin{align*}
+		\sum_{i=1}^{4} T_i  =& -mg \\
+		\sum_{i=1}^{4} M_i  =& 0 \\
+		T_{1,2,3,4} ||& g \\
+		( \omega_1 + \omega_3 ) - ( \omega_2 + \omega_4 ) =& 0 
+\end{align*}
+
+от което и следва, че \(\phi=0,\theta=0,\psi=0\).
+
+\end{frame}
+\begin{frame}
+	За промяна на ориентацията се налага да:
+\begin{align*}
+		\dot{\psi} = k_{\psi}((\omega_1+\omega_3)-(\omega_2 + \omega_4)) ,& \psi = \int \dot{\psi}dt\\
+		\dot{\phi} = k_{\phi}((\omega_1 + \omega_4) - (\omega_2+\omega_3 )) ,& \phi = \int \dot{\phi}dt\\
+		\dot{\theta} = k_{\theta}((\omega_1+\omega_2) - (\omega_3 +\omega_4)) ,& \theta = \int \dot{\theta}dt
+\end{align*}
+\end{frame}
+
+\begin{frame}{Моделиране на системата чрез блок схема}
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.7\columnwidth]{Images/quadrotor_simulink.png}
+	\end{figure}
+\end{frame}
+
 
 \section{Калибриране и компенсация}
 
+\subsection{Жироскопен дрейф}
+
+\begin{frame}{Компенсация на жироскопен дрейф по\\температура}
+
+    \includegraphics[width=0.8\textwidth]{Images/gyro_drift_calibrate.png}
+
+\end{frame}
+
+\begin{frame}[fragile]
+
+	\begin{verbatim}
+	  p_x = 
+		  -42.6978e-9  x^7 +  3.7797e-6 x^6  -131.8066e-006 x^5 + 2.2717e-3 x^4  -19.5918e-3 x^3 +  67.9744e-3 x^2 + 95.1384e-3 x + 2.2440e+0
+	
+	  p_y =
+		  87.1716e-9 x^7  -7.6384e-6 x^6 +  263.1019e-006 x^5  -4.4660e-3 x^4 37.8030e-3 x^3  -129.2365e-3  x^2 -191.6577e-3 x -1.1695e+0
+	
+	  p_z =
+		  15.9591e-9 x^7  -1.4613e-6  x^6 + 53.0721e-006 x^5  -961.5439e-6 x^4 +  8.8365e-3  x^3 -33.3197e-3  x^2 -44.0584e-003 x -1.9076e+0
+	\end{verbatim}
+	\end{frame}
+
+
+\subsection{Магнитни отмествания от околната среда}
+
+\begin{frame}{Компенсация на магнитни отмествания от околната среда}
+	\begin{figure}[!h]
+		\centering
+   		\includegraphics[width=0.6\textwidth]{Images/mag_calibration.png}
+	\end{figure}
+	Използвана е техника на Мерайо\cite{merayo2000scalar} \\(трансформация отместен елипсоид - центрирана сфера).
+\end{frame}
+
+
+\begin{frame}[fragile]
+
+	\begin{verbatim}
+		U =
+	
+		21.4229e+000   837.9000e-003     3.0861e+000
+		 0.0000e+000    21.6201e+000     2.0207e+000
+		 0.0000e+000     0.0000e+000    27.2441e+000
+	
+		c =
+	
+		-1.6000e-003
+		19.9000e-003
+		45.7000e-003
+	\end{verbatim}
+	\end{frame}
+
+
+
+
 \section{Синтез на наблюдател}
+
+\begin{frame}{Филтър на Калман за оценка на \\ъгъл на завъртане}
+	\includegraphics[width=\textwidth]{Images/kf.png}
+\end{frame}
+\begin{frame}{Ковариантни матрици}
+
+\begin{align*}
+    Q =
+    \begin{bmatrix}
+        33.8 & 0 & 0 & 0 \\
+        0 & 33.8 & 0 & 0 \\
+        0 & 0 & 0.4 & 0 \\
+        0 & 0 & 0 & 0.4
+    \end{bmatrix} &,&
+    R = \begin{bmatrix}
+        32 & 0 & 0 & 0 \\
+        0 & 32 & 0 & 0 \\
+        0 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 0
+    \end{bmatrix}
+\end{align*}
+\end{frame}
+
+\begin{frame}{Проверка на резултатите}
+	\begin{columns}
+		\column{0.5\textwidth}
+		\begin{figure}[htpb!]
+			\centering
+			\includegraphics[width=\textwidth]{Images/kalman_filter_time_vs_raw.png}
+
+		\end{figure}
+		
+
+		\column{0.5\textwidth}
+		\begin{figure}[htpb!]
+			\centering
+			\includegraphics[width=\textwidth]{Images/kalman_filter_time_vs_raw_2.png}
+
+		\end{figure}
+	\end{columns}
+\end{frame}
 
 \section{Синтез на управление}
 
-
-
-
-\begin{frame}[focus]
-	Тази презентация е създадена с помощта на \textit{beamer} \LaTeX \textit{- Focus}
+\begin{frame}{Управление на ъгъл на завъртане}
+	Опростена схема на управлението: 
+	\begin{figure}[htpb!]
+		\centering
+		\includegraphics[width=1\textwidth]{Images/control_diagram_simple.png}
+	\end{figure}
 \end{frame}
 
-\begin{frame}[focus]
-	Специялни благодарности на \textit{Кристина Дойчева} за редакция и офрмление.
+\begin{frame}{Схема на имплементирания универсален ПИД}
+	
+	\begin{figure}[htpb!]
+		\centering
+		\includegraphics[width=1\textwidth]{Images/universal_pid.png}
+	\end{figure}
+
 \end{frame}
+
+\begin{frame}{Параметри на регулатор и преходен процес}
+	\begin{equation*}
+		K_p=0.4, K_i=0.003, K_d=2, \tau_d=0.26, out_{limit}=\pm150
+	\end{equation*}
+	\begin{figure}[htpb!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{Images/controlled_system.png}
+	\end{figure}
+\end{frame}
+
+
+%\begin{frame}[focus]
+%	Тази презентация е създадена с помощта на \textit{beamer} \LaTeX \textit{- Focus}
+%\end{frame}
+
+%\begin{frame}[focus]
+%	Специялни благодарности на \textit{Кристина Дойчева} за редакция и офрмление.
+%\end{frame}
 
 
 %----------------------------------------------------------------------------------------
@@ -603,11 +1057,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 %------------------------------------------------
 
-\begin{frame}{Backup Slide}
-	This is a backup slide, useful to include additional materials to answer questions from the audience.
-	\vfill
-	The package \texttt{appendixnumberbeamer} is used to refrain from numbering appendix slides.
+\begin{frame}[focus]
+	Благодаря за вниманието!
 \end{frame}
+
 
 %----------------------------------------------------------------------------------------
 
