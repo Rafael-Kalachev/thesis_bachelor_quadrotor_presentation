@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex presentation"] 1645775952 "presentation.aux" "presentation.bbl" "presentation" 1645776177
+["bibtex presentation"] 1645777689 "presentation.aux" "presentation.bbl" "presentation" 1645777702
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "example.bib" 1645775385 1187 7bdad8498cb291b5d391e58ecf8d81f9 ""
-  "presentation.aux" 1645776176 37548 e5f06a3f5f53b8d140bff8358daa7442 "pdflatex"
+  "presentation.aux" 1645777701 37388 67d3d536878e3fb353a49779a9b38ffb "pdflatex"
   (generated)
-  "presentation.blg"
   "presentation.bbl"
-["pdflatex"] 1645776172 "presentation.tex" "presentation.pdf" "presentation" 1645776177
+  "presentation.blg"
+["pdflatex"] 1645777689 "presentation.tex" "presentation.pdf" "presentation" 1645777702
   "/home/rafael/.local/share/fonts/Heuristica-Bold.otf" 1420372088 164476 be07278e35c8643f8d2edeb27ee4cad0 ""
   "/home/rafael/.local/share/fonts/Heuristica-BoldItalic.otf" 1420372088 150764 4c8dfdb802b4546d5124c11bd6c2ab97 ""
   "/home/rafael/.local/share/fonts/Heuristica-Italic.otf" 1420372088 152144 ca590532b1b0115fdca58fe8bfba1d82 ""
@@ -318,16 +318,16 @@
   "beamerinnerthemefocus.sty" 1645702579 4591 3162803f192ebac34ce36fcdaa8d0876 ""
   "beamerouterthemefocus.sty" 1645702579 13349 3d5ebe5f7e505ff4250ac8e6a66f3f30 ""
   "beamerthemefocus.sty" 1645702579 2056 5a0bd9c149de2672ff379094da256c6e ""
-  "presentation.aux" 1645776176 37548 e5f06a3f5f53b8d140bff8358daa7442 "pdflatex"
-  "presentation.bbl" 1645775952 814 25b37084a7bdc092743a8d0521da633d "bibtex presentation"
-  "presentation.nav" 1645776176 15698 6777f9e97d088d5606ad88c05a0c10e8 "pdflatex"
-  "presentation.tex" 1645776169 35263 49ce84a2b0eb0cb3d1c72c26a9c067a0 ""
-  "presentation.vrb" 1645776176 239 30c55f10b43016135e752a83a3430e07 "pdflatex"
+  "presentation.aux" 1645777701 37388 67d3d536878e3fb353a49779a9b38ffb "pdflatex"
+  "presentation.bbl" 1645777689 814 25b37084a7bdc092743a8d0521da633d "bibtex presentation"
+  "presentation.nav" 1645777701 15817 8aaa95d5f306167f1fd794b8f86cafb5 "pdflatex"
+  "presentation.tex" 1645777667 36551 9764d48bb276b96cb039941d8bd9f521 ""
+  "presentation.vrb" 1645777700 245 0327c50cef81034fbbb9ffa90e3c4897 "pdflatex"
   (generated)
-  "presentation.toc"
-  "presentation.log"
+  "presentation.aux"
   "presentation.pdf"
   "presentation.snm"
-  "presentation.vrb"
-  "presentation.aux"
+  "presentation.log"
+  "presentation.toc"
   "presentation.nav"
+  "presentation.vrb"

@@ -1,22 +1,22 @@
 \selectlanguage *{bulgarian}
 \beamer@sectionintoc {1}{Увод}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Цели и задачи - Софтуер}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Цели и задачи - Хардуер}{5}{0}{1}
-\beamer@subsectionintoc {1}{3}{Цели и задачи - Идентификация,\\ моделиране, наблюдение и управление}{7}{0}{1}
-\beamer@sectionintoc {2}{Софтуерна част}{9}{0}{2}
-\beamer@subsectionintoc {2}{1}{Среда за разработка на софтуер с основа\\\textit {Make} под \textit {Linux}}{10}{0}{2}
-\beamer@subsectionintoc {2}{2}{Софтуерни модули за вътрешна и външна\\периферия}{17}{0}{2}
-\beamer@subsectionintoc {2}{3}{Описание на модулите за външна\\периферия}{25}{0}{2}
-\beamer@subsectionintoc {2}{4}{Допълнителни библиотеки}{31}{0}{2}
-\beamer@subsectionintoc {2}{5}{Инициализация на микроконтролера}{34}{0}{2}
-\beamer@sectionintoc {3}{Хардуерна част}{38}{0}{3}
-\beamer@subsectionintoc {3}{1}{Свързване на системата}{39}{0}{3}
-\beamer@sectionintoc {4}{Моделиране и \\идентификация}{47}{0}{4}
-\beamer@subsectionintoc {4}{1}{Ротор с витло}{48}{0}{4}
-\beamer@subsectionintoc {4}{2}{Платформа за управление на ъгъл на\\ завъртане}{51}{0}{4}
-\beamer@subsectionintoc {4}{3}{Платформа за безпилотен летателен апарат с четири ротора}{54}{0}{4}
-\beamer@sectionintoc {5}{Калибриране и компенсация}{60}{0}{5}
-\beamer@subsectionintoc {5}{1}{Жироскопен дрейф}{61}{0}{5}
-\beamer@subsectionintoc {5}{2}{Магнитни отмествания от околната среда}{64}{0}{5}
-\beamer@sectionintoc {6}{Синтез на наблюдател}{67}{0}{6}
-\beamer@sectionintoc {7}{Синтез на управление}{71}{0}{7}
+\beamer@subsectionintoc {1}{2}{Цели и задачи - Хардуер}{10}{0}{1}
+\beamer@subsectionintoc {1}{3}{Цели и задачи - Идентификация,\\ моделиране, наблюдение и управление}{17}{0}{1}
+\beamer@sectionintoc {2}{Софтуерна част}{28}{0}{2}
+\beamer@subsectionintoc {2}{1}{Среда за разработка на софтуер с основа\\\textit {Make} под \textit {Linux}}{29}{0}{2}
+\beamer@subsectionintoc {2}{2}{Софтуерни модули за вътрешна и външна\\периферия}{66}{0}{2}
+\beamer@subsectionintoc {2}{3}{Описание на модулите за външна\\периферия}{116}{0}{2}
+\beamer@subsectionintoc {2}{4}{Допълнителни библиотеки}{147}{0}{2}
+\beamer@subsectionintoc {2}{5}{Инициализация на микроконтролера}{160}{0}{2}
+\beamer@sectionintoc {3}{Хардуерна част}{177}{0}{3}
+\beamer@subsectionintoc {3}{1}{Свързване на системата}{178}{0}{3}
+\beamer@sectionintoc {4}{Моделиране и \\идентификация}{202}{0}{4}
+\beamer@subsectionintoc {4}{1}{Ротор с витло}{203}{0}{4}
+\beamer@subsectionintoc {4}{2}{Платформа за управление на ъгъл на\\ завъртане}{212}{0}{4}
+\beamer@subsectionintoc {4}{3}{Платформа за безпилотен летателен апарат с четири ротора}{218}{0}{4}
+\beamer@sectionintoc {5}{Калибриране и компенсация}{232}{0}{5}
+\beamer@subsectionintoc {5}{1}{Жироскопен дрейф}{233}{0}{5}
+\beamer@subsectionintoc {5}{2}{Магнитни отмествания от околната среда}{238}{0}{5}
+\beamer@sectionintoc {6}{Синтез на наблюдател}{244}{0}{6}
+\beamer@sectionintoc {7}{Синтез на управление}{252}{0}{7}
